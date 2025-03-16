@@ -1,0 +1,136 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: #000000;
+}
+
+header h1 {
+    display: flex;
+    background-color: black;
+    color: white;
+    justify-content: center;
+    font-size: 3rem;
+    font-weight: normal;
+    margin: 0.5rem 0 0.5rem 0;
+    font-family: raleway;
+}
+
+.hero_image {
+    background-image: url("../img/bg-header.jpg");
+    background-color: #cccccc;
+    height: 70rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.middle_section {
+    color: white;
+    display: flex;
+    align-items: center;
+    margin: 4.75rem 6.6rem 4.75rem 9rem;
+}
+
+.middle_section>div>p {
+    font-family: raleway;
+    line-height: 1.2rem;
+    font-weight: lighter;
+    margin: 0.5rem;
+}
+
+.middle_section div {
+    width: 40rem;
+    display: flex;
+    flex-direction: column;
+    margin: 3rem;
+
+}
+
+.div_img img {
+    width: 100%;
+}
+
+
+.caract_section {
+    background-color: #1E1A13;
+    color: white;
+    display: flex;
+    flex-direction: column;
+    min-height: 40vh;
+    justify-content: space-evenly;
+}
+
+.caract_section h2 {
+    text-align: center;
+    font-size: 2.5rem;
+    font-family: raleway;
+    font-weight: normal;
+    vertical-align: text-top;
+}
+
+
+.caract_icons {
+    display: flex;
+    justify-content: space-evenly;
+
+}
+
+.icons {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.icons p {
+    margin-top: 2rem;
+    font-size: 1.5rem;
+    font-family: raleway;
+    font-weight: lighter;
+}
+
+.img_section {
+    display: flex;
+    justify-content: center;
+    margin: 73px;
+}
+
+.img_section>div>img {
+    width: 316px;
+    height: 202px;
+    padding: 0 8px 0 8px;
+
+}
+
+footer {
+    background-color: #1E1A13;
+    color: white;
+    display: flex;
+    justify-content: center;
+    height: 102px;
+    align-items: center;
+    font-family: raleway;
+    font-weight: lighter;
+}
+
+footer>div>a {
+    text-decoration: none;
+    color: white;
+    font-size: 1.25rem;
+
+}
+
+footer>div>p {
+    font-size: 1.25rem;
+}
+
+footer>div {
+    margin: 4px;
+}
+
+a:hover {
+    color: rgb(32, 113, 32)
+}
